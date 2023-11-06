@@ -1,14 +1,13 @@
 // src/App.js
 import React from 'react';
+import NavigationBar from './NavigationBar'; // Import the navigation component
 import './App.css'; // Make sure this is imported
 
 function App() {
   return (
     <div className="App">
-      {/* Your dashboard code will go here */}
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <NavigationBar />
+      {/* Other components or content can go here */}
     </div>
   );
 }
